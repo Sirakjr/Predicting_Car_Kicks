@@ -1,0 +1,11 @@
+model: Decision Tree Classifier
+
+features: 'Age', 'Mileage', 'Price', 'WarrantyCost', 'Auction', 'Make', 'Color', 'Transmission', 'WheelType', 'Nationality', 'Size', 'TopThreeAmericanName', 'State', 'IsOnlineSale', 'Class', 'price_ratio'
+
+hyperparameters: max depth = 10, criterion = gini
+
+performance metrics:
+optimal threshold : 0.0909
+recall score:0.5954
+ROC AUC score:0.6091
+Precision score:0.1461
